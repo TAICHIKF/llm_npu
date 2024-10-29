@@ -9,12 +9,3 @@ pip install torch_npu -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 git submodule add  https://github.com/InternLM/lmdeploy.git  lmdeploy
 
-
-
-echo "# llm_npu" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:TAICHIKF/llm_npu.git
-git push -u origin main
