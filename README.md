@@ -1,6 +1,6 @@
 # llm_npu
 
-# add ssh key
+## add ssh key
 ```
 cat ~/.ssh/id_rsa.pub
 ssh -T git@github.com
